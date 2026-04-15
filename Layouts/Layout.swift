@@ -10,9 +10,30 @@ import SwiftUI
 struct Layout: View {
     var body: some View {
 
-        VStack{
-            HStack{
+        VStack (spacing: 30){
+            
+            VStack {
                 
+                Text("ONE")
+                
+                Text("TWO")
+                Text("THREE")
+            }
+            
+            
+            HStack{
+                Text("ONE")
+                Text("TWO")
+                Text("THREE")
+                
+            }
+            
+            ZStack {
+                
+                Color.blue.frame(width: 100, height: 100)
+                
+                Text("ONE")
+
             }
         }
 
