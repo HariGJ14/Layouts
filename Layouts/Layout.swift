@@ -33,6 +33,7 @@ struct Layout: View {
                 Color.blue.frame(width: 100, height: 100)
                 
                 Text("ONE")
+
             }
         }
 
