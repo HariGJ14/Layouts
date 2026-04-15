@@ -11,7 +11,9 @@ struct Layout: View {
     var body: some View {
 
         VStack{
-            
+            HStack{
+                
+            }
         }
 
     }
